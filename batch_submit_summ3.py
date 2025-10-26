@@ -16,7 +16,7 @@ SUCCESS_KEYWORDS = ["Récapitulatif", "Certificat", "Titulaire Principal"]
 KNOWN_ERROR = "Aucun dossier ne correspond à la recherche. L'opération ne peut se poursuivre."
 
 # Paths
-INPUT_FILE = "entries_mini.xlsx"
+INPUT_FILE = "entries.xlsx"
 RESULT_FILE = "results.xlsx"
 SUMMARY_FILE = "summary_report.json"
 ERROR_FILE = "errors.xlsx"
