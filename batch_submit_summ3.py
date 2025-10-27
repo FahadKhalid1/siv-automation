@@ -26,6 +26,15 @@ SENDER_EMAIL = "siv.automation.report@gmail.com"
 APP_PASSWORD = "rjtpxqrrlsoitqpo"  # Gmail App Password
 RECEIVER_EMAIL = "catchfahad92@gmail.com"
 
+# === Verify which file is being used ===
+import os
+if os.path.exists(INPUT_FILE):
+    print(f"📄 Using input file: {os.path.abspath(INPUT_FILE)} ({os.path.getsize(INPUT_FILE)} bytes)")
+else:
+    print(f"❌ Input file '{INPUT_FILE}' not found — please check path or name.")
+
+
+
 # -----------------------
 # 1) Load Excel
 # -----------------------
