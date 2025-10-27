@@ -4,7 +4,6 @@ services:
     env: docker
     dockerfilePath: ./Dockerfile
     schedule: "0 7 * * *"        # runs daily at 08:00 Paris (07:00 UTC)
-    startCommand: "python batch_submit_summ3.py"
     autoDeploy: true
     envVars:
       - key: EMAIL_USER
